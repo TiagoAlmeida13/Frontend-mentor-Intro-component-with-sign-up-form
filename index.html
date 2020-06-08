@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+</head>
+<body>
+  <div class="container">
+    <div class="cards">
+      <div class="card-left">
+        <h1>Learn to code by </br>
+          watching others</h1>
+
+        See how experienced developers solve problems in real-time. 
+        </br>
+        Watching scripted tutorials is great, 
+        but understanding how
+        </br> 
+        developers think is invaluable. 
+      </div>
+      <div class="card-right">
+        <div class="content">
+          <button class="trial" type="submit"><strong>Try it free 7 days</strong> then $20/mo. thereafter</button>
+          <div class="card-form">
+            <div class="form">
+              <form method="POST" name="formuser">
+              <input class="name" name="name" type="text" placeholder="First Name"/> 
+              <input class="lastName" name="lastName" type="text" placeholder="Last Name"/>
+              <input class="email" name="email" type="email" placeholder="Email Address"/>
+              <input class="password" name="password" type="password"  placeholder="Password"/>
+            </div>
+            
+          
+            <button class="send" type="submit" onclick="return validate()">Claim your free trial</button>  
+            </form>
+            <p>By clicking the button, you are agreeing to our <a href="#">Terms and Services.</a></p>
+          </div>
+          
+        </div>
+       
+      </div>
+    </div>
+  </div>
+
+ 
+
+  
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/TiagoAlmeida13">Tiago Almeida</a>.
+    </p>
+  </footer>
+
+  <script src="./js/index.js"></script>
+</body>
+</html>

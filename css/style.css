@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*,
+html,
+body {
+    outline: none;
+    box-sizing: border-box; 
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url("../images/bg-intro-desktop.png");
+    background-color: hsl(0, 100%, 74%);
+}
+
+.container{
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container .cards{
+    display: flex;
+    font-size: 16px;
+    color: #fff;
+    height: 500px;
+    align-items: center;
+}
+
+.container .cards .card-left{
+    max-width: 50%;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+.container .cards .card-right{
+    width: 550px;
+    max-width: 100%;
+    margin: 0 auto;
+    height: 90%;
+    
+}
+
+.container .cards .card-right .content{
+    display: flex;
+    flex-direction: column;
+}
+
+.container .cards .card-right .content .trial{
+    background-color: hsl(248, 32%, 49%);
+    color: #fff;
+    width: 80%;
+    height: 3em;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    -webkit-box-shadow: 10px 7px 20px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 7px 20px -6px rgba(0,0,0,0.75);
+    box-shadow: 10px 7px 20px -6px rgba(0,0,0,0.75);
+}
+
+.container .cards .card-right .content .card-form{
+    height: 100%;
+    margin-top: 30px;
+    -webkit-box-shadow: 10px 7px 20px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 7px 20px -6px rgba(0,0,0,0.75);
+    box-shadow: 10px 7px 20px -6px rgba(0,0,0,0.75);
+}
+
+.container .cards .card-right .content .card-form{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px 0;
+    background: #fff;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.container .cards .card-right .content .card-form input{
+    display: flex;
+    width: 80%;
+    height: 3em;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.container .cards .card-right .content .card-form .send{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(154, 59%, 51%);
+    color: #fff;
+    width: 80%;
+    height: 3em;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    -webkit-box-shadow: 10px 7px 20px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 7px 20px -6px rgba(0,0,0,0.75);
+    box-shadow: 10px 7px 20px -6px rgba(0,0,0,0.75);
+}
+
+.container .cards .card-right .content .card-form p{
+    color: hsl(246, 25%, 77%);
+    font-size: 10px;
+    text-align: center;
+}
+
+.container .cards .card-right .content .card-form p a{
+    text-decoration: none;
+    color: hsl(0, 100%, 74%);
+    font-weight: 700;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
